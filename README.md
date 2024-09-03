@@ -18,8 +18,8 @@ The competition and task was based on the publicaly available [Annotated Germs f
 
 Our approach to the task included fine-tuning computer vision models in various configuration and training pipelines. Initially a DETR model was tested alongside the YOLOv8; however, due to better performance and compatibility the YOLOv8 was refined in the process of the competition. The YOLO's training pipeline was refined to suit the data and conditions of the training. This included extensive setting for image augmentation to allow for broader learning of the model.
 
-![Model Approach](images\pre_modeltest.png)
-![Data Approach](images\pre_dataapp.png)
+![Model Approach](images/pre_modeltest.png)
+![Data Approach](images/pre_dataapp.png)
 
 ### Results:
 
@@ -27,9 +27,9 @@ The trained YOLOv8 models have achieved a very high accuracy within the competit
 
 The results on the external test dataset were very similar with a 99.3% weighted accuracy and recall metric and 2.9% MSLE respectively.
 
-![Confidence Matrices - Binary Task](images\pres_res_conf.png)
-![Prediction Accuracy - Detection Task](images\pres_res_count.png)
+![Confidence Matrices - Binary Task](images/pres_res_conf.png)
+![Prediction Accuracy - Detection Task](images/pres_res_count.png)
 
 ### Conclusions:
 
-![Conclusion](images\pres_conclusions.png)
+![Conclusion](images/pres_conclusions.png)
